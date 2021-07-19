@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /js/
+Disallow: /images/
+Allow: /
+Sitemap: https://hyeonguj.github.io/sitemap.xml
