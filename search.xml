@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>[Zipkin] 적용가이드 - MSA 요청추적 (springboot/ sleuth/ grpc/ http)</title>
+      <title>[Zipkin] 사용법 가이드 - MSA 요청추적 (springboot/ sleuth/ grpc/ http)</title>
       <link href="/2021/07/20/spring-boot-sleuth-zipkin-grpc-sample/"/>
       <url>/2021/07/20/spring-boot-sleuth-zipkin-grpc-sample/</url>
       
