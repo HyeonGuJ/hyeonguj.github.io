@@ -31,36 +31,8 @@
     </url>
 
     <url>
-        <loc>https://hyeonguj.github.io/tags/icarus/</loc>
-        <lastmod>2021-07-19T15:04:43.877Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://hyeonguj.github.io/tags/exception/</loc>
         <lastmod>2021-07-19T15:04:43.877Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://hyeonguj.github.io/tags/blog/</loc>
-        <lastmod>2021-07-19T15:04:43.878Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://hyeonguj.github.io/tags/hexo/</loc>
-        <lastmod>2021-07-19T15:04:43.878Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://hyeonguj.github.io/tags/github/</loc>
-        <lastmod>2021-07-19T15:04:43.878Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -264,6 +236,34 @@
     <url>
         <loc>https://hyeonguj.github.io/tags/tracing/</loc>
         <lastmod>2021-07-19T15:47:55.591Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://hyeonguj.github.io/tags/blog/</loc>
+        <lastmod>2021-07-22T04:44:50.189Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://hyeonguj.github.io/tags/hexo/</loc>
+        <lastmod>2021-07-22T04:44:50.189Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://hyeonguj.github.io/tags/icarus/</loc>
+        <lastmod>2021-07-22T04:44:50.189Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://hyeonguj.github.io/tags/github/</loc>
+        <lastmod>2021-07-22T04:44:50.189Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
