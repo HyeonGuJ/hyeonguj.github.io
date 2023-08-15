@@ -20,10 +20,6 @@
         $('.justified-gallery').justifiedGallery();
     }
 
-    if (!$('.columns .column-right-shadow').children().length) {
-        $('.columns .column-right-shadow').append($('.columns .column-right').children().clone());
-    }
-
     if (typeof moment === 'function') {
         $('.article-meta time').each(function() {
             $(this).text(moment($(this).attr('datetime')).fromNow());
@@ -66,9 +62,9 @@
         $('figure.highlight').addClass('hljs');
         $('figure.highlight .code .line span').each(function() {
             const classes = $(this).attr('class').split(/\s+/);
-            if (classes.length === 1) {
-                $(this).addClass('hljs-' + classes[0]);
-                $(this).removeClass(classes[0]);
+            for (const cls of classes) {
+                $(this).addClass('hljs-' + cls);
+                $(this).removeClass(cls);
             }
         });
 
@@ -102,6 +98,8 @@
 
         if (fold) {
             $('figure.highlight').each(function() {
+                $(this).addClass('foldable'); // add 'foldable' class as long as fold is enabled
+
                 if ($(this).find('figcaption').find('span').length > 0) {
                     const span = $(this).find('figcaption').find('span');
                     if (span[0].innerText.indexOf('>folded') > -1) {
@@ -115,7 +113,7 @@
                 toggleFold(this, fold === 'folded');
             });
 
-            $('figure.highlight figcaption .fold').click(function() {
+            $('figure.highlight figcaption .level-left').click(function() {
                 const $code = $(this).closest('figure.highlight');
                 toggleFold($code.eq(0), !$code.hasClass('folded'));
             });
